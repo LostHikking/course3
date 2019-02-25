@@ -1,4 +1,4 @@
-package lab;
+package ru.omsu.imit.course3;
 
 import com.google.gson.Gson;
 

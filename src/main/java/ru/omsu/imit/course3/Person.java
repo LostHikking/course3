@@ -1,5 +1,4 @@
-package lab;
-
+package ru.omsu.imit.course3;
 import java.io.Serializable;
 import java.rmi.server.UID;
 

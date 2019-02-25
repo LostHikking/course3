@@ -1,4 +1,4 @@
-package lab;
+package ru.omsu.imit.course3;
 
 import java.util.ArrayList;
 import java.util.List;
