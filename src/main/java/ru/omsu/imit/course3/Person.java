@@ -1,22 +1,26 @@
 package ru.omsu.imit.course3;
+
 import java.io.Serializable;
-import java.rmi.server.UID;
+
 
 public class Person implements Serializable {
+    private static final long serialVersionUID = 2350340094990612631L;
     @Override
     public String toString() {
-        return null;
+        return "Person [firstname=" + firstName + ", lastname=" + lastName + ", age=" + age + "]";
     }
-
     private String firstName;
     private String lastName;
-    private int age;
+    private Integer age;
 
-    public Person(String firstName, String lastName, int age) {
+    public Person(String firstName, String lastName, Integer age) {
         super();
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+    }
+
+    public Person() {
     }
 
     public String getFirstName() {
@@ -35,7 +39,7 @@ public class Person implements Serializable {
         this.lastName = lastName;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
