@@ -1,6 +1,7 @@
 package ru.omsu.imit.course3;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,12 +28,30 @@ public class Server {
 
     public void add(String request){
         Gson gson = new Gson();
+        try {
+            Person person = gson.fromJson(request, Person.class);
+        }
+        catch (JsonSyntaxException e){
+            return;
+        }
         Person person = gson.fromJson(request, Person.class);
+        if (person.getFirstName() == null)
+            return;
+        if (person.getLastName() == null)
+            return;
+        if (person.getAge() == null)
+            return;
         this.list.add(person);
     }
 
     public String get(String request) {
         Gson gson = new Gson();
+        try {
+            Person person = gson.fromJson(request, Person.class);
+        }
+        catch (JsonSyntaxException e){
+            return null;
+        }
         Person person = gson.fromJson(request, Person.class);
         String result = null;
         Person resultPerson;
