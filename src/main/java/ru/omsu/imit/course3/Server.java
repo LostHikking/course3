@@ -48,8 +48,7 @@ public class Server {
         Gson gson = new Gson();
         try {
             Person person = gson.fromJson(request, Person.class);
-        }
-        catch (JsonSyntaxException e){
+        } catch (JsonSyntaxException e) {
             return null;
         }
         Person person = gson.fromJson(request, Person.class);
