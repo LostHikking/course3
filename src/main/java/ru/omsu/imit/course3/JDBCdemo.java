@@ -91,7 +91,7 @@ public class JDBCdemo {
         selectFromBookstore("select * from books");
         updateBookstore(queryAddColumn3);
         selectFromBookstore("select * from books");
-        String uqueryNC1 = "UPDATE BOOKS SET cover = \"without cover\"";
+        String uqueryNC1 = "UPDATE BOOKS SET cover = \"без обложки\"";
         updateBookstore(uqueryNC1);
         selectFromBookstore("select * from books");
         String uqueryNC2 = "UPDATE BOOKS SET publishing_house = \"КультИздат\" WHERE id BETWEEN 1 AND 5";
@@ -238,9 +238,9 @@ public class JDBCdemo {
                     "(\n" +
                     "  cover varchar(50) not null primary key\n" +
                     ")");
-            stmt.executeUpdate("INSERT INTO cover_types VALUES (\"hard cover\")");
-            stmt.executeUpdate("INSERT INTO cover_types VALUES (\"soft cover\")");
-            stmt.executeUpdate("INSERT INTO cover_types VALUES (\"without cover\")");
+            stmt.executeUpdate("INSERT INTO cover_types VALUES (\"твёрдая обложка\")");
+            stmt.executeUpdate("INSERT INTO cover_types VALUES (\"мягкая обложка\")");
+            stmt.executeUpdate("INSERT INTO cover_types VALUES (\"без обложки\")");
             con.close();
         } catch (SQLException se) {
             se.printStackTrace();

@@ -65,15 +65,15 @@ create table cover_types
 (
   cover varchar(50) not null primary key
 );
-INSERT INTO cover_types VALUES ("hard cover");
-INSERT INTO cover_types VALUES ("soft cover");
-INSERT INTO cover_types VALUES ("without cover");
+INSERT INTO cover_types VALUES ("твЄрда€ обложка");
+INSERT INTO cover_types VALUES ("м€гка€ обложка");
+INSERT INTO cover_types VALUES ("без обложки");
 SELECT * from cover_types;
 ALTER TABLE BOOKS ADD COLUMN cover VARCHAR(50);
 ALTER TABLE BOOKS ADD FOREIGN KEY (cover) REFERENCES cover_types (cover); SELECT * FROM bookstore.books;
 
 #8
-UPDATE BOOKS SET cover = "without cover";
+UPDATE BOOKS SET cover = "без обложки";
 
 #9
 UPDATE BOOKS SET publishing_house = " ульт»здат" WHERE id BETWEEN 1 AND 5;
