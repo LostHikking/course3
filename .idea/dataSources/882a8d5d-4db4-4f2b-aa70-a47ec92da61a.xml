@@ -1107,33 +1107,65 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="278" parent="2" name="books"/>
-    <column id="279" parent="278" name="id">
+    <table id="278" parent="2" name="bk"/>
+    <table id="279" parent="2" name="cover_types"/>
+    <column id="280" parent="278" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="280" parent="278" name="title">
+    <column id="281" parent="278" name="book_name">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="278" name="year">
+    <column id="282" parent="278" name="year">
       <Position>3</Position>
       <DataType>year(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="278" name="pages">
+    <column id="283" parent="278" name="pages">
       <Position>4</Position>
       <DataType>int(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="283" parent="278" name="PRIMARY">
+    <column id="284" parent="278" name="publishing_house">
+      <Position>5</Position>
+      <DataType>varchar(60)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="278" name="cover">
+      <Position>6</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="286" parent="278" name="cover">
+      <ColNames>cover</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="287" parent="278" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="288" parent="278" name="bk_ibfk_1">
+      <ColNames>cover</ColNames>
+      <RefSchemaName>bookstore</RefSchemaName>
+      <RefTableName>cover_types</RefTableName>
+      <RefColNames>cover</RefColNames>
+    </foreign-key>
+    <column id="289" parent="279" name="cover">
+      <Position>1</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="290" parent="279" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>cover</ColNames>
       <Primary>1</Primary>
     </key>
   </database-model>
