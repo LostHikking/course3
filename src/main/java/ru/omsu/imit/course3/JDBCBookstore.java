@@ -2,7 +2,7 @@ package ru.omsu.imit.course3;
 
 import java.sql.*;
 
-public class JDBCdemo {
+public class JDBCBookstore {
 
     private static final String URL = "jdbc:mysql://localhost:3306/bookstore?autoReconnect=true&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private static final String USER = "root";
@@ -12,12 +12,12 @@ public class JDBCdemo {
     private static Statement stmt;
     private static ResultSet rs;
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
-            System.out.println("Error loading JDBCdemo Driver ");
+            System.out.println("Error loading JDBCBookstore Driver ");
             e.printStackTrace();
             return;
         }
