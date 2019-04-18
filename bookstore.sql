@@ -71,7 +71,6 @@ INSERT INTO cover_types VALUES ("без обложки");
 SELECT * from cover_types;
 ALTER TABLE BOOKS ADD COLUMN cover VARCHAR(50);
 ALTER TABLE BOOKS ADD FOREIGN KEY (cover) REFERENCES cover_types (cover); SELECT * FROM bookstore.books;
-
 #8
 UPDATE BOOKS SET cover = "без обложки";
 

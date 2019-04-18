@@ -120,7 +120,7 @@ public class JDBCdemo {
                 int id  = rs.getInt("id");
                 String title = "";
                 try {
-                    title = rs.getString("title");
+                    title = rs.getString(2);
                 }
                 catch (SQLException se){
 
@@ -129,7 +129,6 @@ public class JDBCdemo {
                     title = rs.getString("book_name");
                 }
                 catch (SQLException se){
-
                 }
                 String year = rs.getString("year");
                 int pages = rs.getInt("pages");

@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259e1de5-8350-4754-a390-e5e567fa2df7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/882a8d5d-4db4-4f2b-aa70-a47ec92da61a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/882a8d5d-4db4-4f2b-aa70-a47ec92da61a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/882a8d5d-4db4-4f2b-aa70-a47ec92da61a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookstore.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/omsu/imit/course3/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,29 +57,57 @@
         <item name="bookstore: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="books: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="medialibrary: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookstore.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="62" column="72" selection-start-line="62" selection-start-column="72" selection-end-line="62" selection-end-column="72" />
+        <entry file="uml://DATABASE/5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="58.0" />
+              <SelectedNodes>
+                <node>5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="145" column="60" selection-start-line="145" selection-start-column="60" selection-end-line="145" selection-end-column="60" />
+            <state relative-caret-position="272">
+              <caret line="100" column="24" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -95,17 +124,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="476">
               <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="510">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1555585575105" expanded="true" signature="307:2848" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3192#3193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,10 +201,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/882a8d5d-4db4-4f2b-aa70-a47ec92da61a/console.sql" />
-        <option value="$PROJECT_DIR$/bookstore.sql" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBC.java" />
+        <option value="$PROJECT_DIR$/bookstore.sql" />
         <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/omsu/imit/course3/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" />
+        <option value="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java" />
       </list>
     </option>
   </component>
@@ -146,8 +221,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="60" />
+    <option name="x" value="573" />
+    <option name="y" value="232" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -157,6 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,12 +267,23 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="course3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +291,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -218,7 +307,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.Client" />
+      <module name="course3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.omsu.imit.course3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JDBCdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.JDBCdemo" />
       <module name="course3" />
@@ -232,8 +334,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.Server" />
+      <module name="course3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.omsu.imit.course3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.JDBCdemo" />
       </list>
     </recent_temporary>
@@ -251,38 +368,55 @@
       <workItem from="1554275480217" duration="1707000" />
       <workItem from="1554301292451" duration="893000" />
       <workItem from="1554940375705" duration="5090000" />
-      <workItem from="1554946106524" duration="8811000" />
+      <workItem from="1554946106524" duration="11078000" />
+      <workItem from="1555074611097" duration="3372000" />
+      <workItem from="1555573341170" duration="7021000" />
     </task>
+    <task id="LOCAL-00001" summary="task 2">
+      <created>1554955077771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554955077771</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update some queries">
+      <created>1554955315265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554955315265</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16501000" />
+    <option name="totallyTimeSpent" value="29161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Console" order="7" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.1375948" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -291,21 +425,23 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.17324094" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/course3" />
+    </ignored-roots>
+    <MESSAGE value="task 2" />
+    <MESSAGE value="update some queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="update some queries" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="das://882a8d5d-4db4-4f2b-aa70-a47ec92da61a/schema/bookstore/table/books" />
-    <entry file="das://882a8d5d-4db4-4f2b-aa70-a47ec92da61a/schema/bookstore/table/bk">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://882a8d5d-4db4-4f2b-aa70-a47ec92da61a/schema/bookstore/table/bk" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/882a8d5d-4db4-4f2b-aa70-a47ec92da61a/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -313,17 +449,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5decac3e-bd70-4f00-87b6-cf14cc77145f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://W:/Home/Desktop/MediaLib.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state>
+          <caret selection-end-line="142" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/5decac3e-bd70-4f00-87b6-cf14cc77145f.SCHEMA:medialibrary">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>5decac3e-bd70-4f00-87b6-cf14cc77145f.SCHEMA:medialibrary</OriginalElement>
+          <nodes>
+            <node x="469.25" y="321.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.collections</node>
+            <node x="0.0" y="133.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.persons</node>
+            <node x="285.0" y="166.5">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.genres</node>
+            <node x="461.5" y="133.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies</node>
+            <node x="636.25" y="321.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.files</node>
+            <node x="314.25" y="332.5">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.genre_of_movies</node>
+            <node x="211.95833333333337" y="0.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.countries</node>
+            <node x="131.375" y="310.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.crew</node>
+            <node x="656.75" y="122.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.sources</node>
+            <node x="150.0" y="166.5">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.roles</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.crew" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies">
+              <point x="38.33333333333334" y="-58.0" />
+              <point x="227.20833333333334" y="280.0" />
+              <point x="477.75" y="280.0" />
+              <point x="-48.75" y="58.0" />
+            </edge>
+            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.files" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.sources">
+              <point x="31.0" y="-47.0" />
+              <point x="0.0" y="69.0" />
+            </edge>
+            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.crew" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.persons">
+              <point x="-38.33333333333334" y="-58.0" />
+              <point x="150.54166666666666" y="290.0" />
+              <point x="65.0" y="290.0" />
+              <point x="0.0" y="58.0" />
+            </edge>
+            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.persons" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.countries">
+              <point x="0.0" y="-58.0" />
+              <point x="65.0" y="97.0" />
+              <point x="256.45833333333337" y="97.0" />
+              <point x="-44.5" y="36.0" />
+            </edge>
+            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.crew" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.roles">
+              <point x="0.0" y="-58.0" />
+              <point x="188.875" y="290.0" />
+              <point x="207.5" y="290.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.genre_of_movies" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies">
+              <point x="33.75" y="-35.5" />
+              <point x="415.5" y="290.0" />
+              <point x="510.25" y="290.0" />
+              <point x="-16.25" y="58.0" />
+            </edge>
+            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.files" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies">
+              <point x="-31.0" y="-47.0" />
+              <point x="667.25" y="290.0" />
+              <point x="575.25" y="290.0" />
+              <point x="48.75" y="58.0" />
+            </edge>
+            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.countries">
+              <point x="0.0" y="-58.0" />
+              <point x="526.5" y="97.0" />
+              <point x="345.45833333333337" y="97.0" />
+              <point x="44.5" y="36.0" />
+            </edge>
+            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.collections" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies">
+              <point x="0.0" y="-47.0" />
+              <point x="16.25" y="58.0" />
+            </edge>
+            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.genre_of_movies" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.genres">
+              <point x="-33.75" y="-35.5" />
+              <point x="0.0" y="24.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6185567010309279" x="378.0" y="213.0" />
+          <SelectedNodes>
+            <node>5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.files</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="58.0" />
+          <SelectedNodes>
+            <node>5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
@@ -334,23 +579,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5decac3e-bd70-4f00-87b6-cf14cc77145f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="62" column="72" selection-start-line="62" selection-start-column="72" selection-end-line="62" selection-end-column="72" />
+        <state relative-caret-position="272">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="145" column="60" selection-start-line="145" selection-start-column="60" selection-end-line="145" selection-end-column="60" />
+        <state relative-caret-position="476">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1555585575105" expanded="true" signature="307:2848" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3192#3193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

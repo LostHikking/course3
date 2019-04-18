@@ -5,9 +5,28 @@ import com.google.gson.JsonSyntaxException;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.net.*;
+import java.io.*;
 
 public class Server {
     private List<Person> list = new ArrayList<>();
+
+    public void run() {
+        new Thread(()->{
+            final int port = 6666;
+            System.out.println("Server started and ready to accept clients requests");
+            try (ServerSocket serverSocket = new ServerSocket(port)) {
+                int id = 0;
+                while (true) {
+                    Socket clientSocket = serverSocket.accept();
+                    ClientServiceThread clientThread = new ClientServiceThread(clientSocket, id++);
+                    clientThread.start();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }).start();
+    }
 
 
     Server() {
@@ -26,22 +45,23 @@ public class Server {
     }
 
 
-    public void add(String request){
+    public boolean add(String request){
         Gson gson = new Gson();
         try {
             Person person = gson.fromJson(request, Person.class);
         }
         catch (JsonSyntaxException e){
-            return;
+            return false;
         }
         Person person = gson.fromJson(request, Person.class);
         if (person.getFirstName() == null)
-            return;
+            return false;
         if (person.getLastName() == null)
-            return;
+            return false;
         if (person.getAge() == null)
-            return;
+            return false;
         this.list.add(person);
+        return true;
     }
 
     public String get(String request) {
