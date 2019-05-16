@@ -6,8 +6,11 @@ import java.io.*;
 
 
 public class Client {
-    public void run() {
-        new Thread(()-> {
+
+
+
+    public String send(String message) {
+
             final int serverPort = 6666;
             final String address = "localhost";
             InetAddress ipAddress;
@@ -16,34 +19,20 @@ public class Client {
                 ipAddress = InetAddress.getByName(address);
             } catch (UnknownHostException e) {
                 e.printStackTrace();
-                return;
+                return "Connection error";
             }
-            try (Socket socket = new Socket(ipAddress, serverPort);
-                 DataInputStream in = new DataInputStream(socket.getInputStream());
-                 DataOutputStream out = new DataOutputStream(socket.getOutputStream());
-                 BufferedReader keyboardReader = new BufferedReader(new InputStreamReader(System.in, "CP866"))) {
-
-                System.out.println(socket.getLocalPort());
-                String line = null;
-                System.out.println("Type in something and press enter");
-
-                while (true) {
-                    line = keyboardReader.readLine();
-                    System.out.println("Sending this line to the server: " + line);
-                    out.writeUTF(line);
-                    out.flush();
-                    if (line.equalsIgnoreCase("quit")) {
-                        System.out.println("Client stopped");
-                        break;
-                    }
-                    line = in.readUTF();
-                    System.out.println("Server answer is: " + line);
-                }
-            } catch (IOException e) {
+            try {
+                Socket socket = new Socket(ipAddress, serverPort);
+                DataInputStream in = new DataInputStream(socket.getInputStream());
+                DataOutputStream out = new DataOutputStream(socket.getOutputStream());
+                out.writeUTF(message);
+                out.flush();
+                return in.readUTF();
+            }
+             catch (IOException e) {
                 e.printStackTrace();
             }
-        }).start();
-
+        return "error";
 //        Server server = new Server();
 //        Person person1 = new Person("u", "Kek", 27);
 //        String request = gson.toJson(person1);
@@ -55,6 +44,8 @@ public class Client {
 //        personResult = gson.fromJson(resultJson, Person.class);
 //        System.out.println(personResult);
 //        server.printAll();
+
+
     }
 
 }

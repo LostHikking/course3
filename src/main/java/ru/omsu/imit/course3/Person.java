@@ -5,13 +5,14 @@ import java.io.Serializable;
 
 public class Person implements Serializable {
     private static final long serialVersionUID = 2350340094990612631L;
+    private String firstName;
+    private String lastName;
+    private Integer age;
+
     @Override
     public String toString() {
         return "Person [firstname=" + firstName + ", lastname=" + lastName + ", age=" + age + "]";
     }
-    private String firstName;
-    private String lastName;
-    private Integer age;
 
     public Person(String firstName, String lastName, Integer age) {
         super();

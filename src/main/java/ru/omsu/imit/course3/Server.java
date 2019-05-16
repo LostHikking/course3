@@ -4,22 +4,21 @@ import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.net.*;
 import java.io.*;
 
 public class Server {
-    private List<Person> list = new ArrayList<>();
-
+    private List<Person> persons = Collections.synchronizedList(new ArrayList<>());
     public void run() {
         new Thread(()->{
             final int port = 6666;
-            System.out.println("Server started and ready to accept clients requests");
             try (ServerSocket serverSocket = new ServerSocket(port)) {
                 int id = 0;
                 while (true) {
                     Socket clientSocket = serverSocket.accept();
-                    ClientServiceThread clientThread = new ClientServiceThread(clientSocket, id++);
+                    ClientServiceThread clientThread = new ClientServiceThread(clientSocket, id++, this);
                     clientThread.start();
                 }
             } catch (IOException e) {
@@ -27,23 +26,20 @@ public class Server {
             }
         }).start();
     }
-
-
-    Server() {
+    public Server(){
         Person person1 = new Person("Vasya", "Pupkin", 15);
         Person person2 = new Person("Ivan", "Ivanov", 23);
         Person person3 = new Person("Sidor", "Sidorov", 67);
         Person person4 = new Person("Kirill", "Petrov", 19);
         Person person5 = new Person("Semyon", "Ivanov", 55);
         Person person7 = new Person("Lol", "Kek", 27);
-        this.list.add(person1);
-        this.list.add(person2);
-        this.list.add(person3);
-        this.list.add(person4);
-        this.list.add(person5);
-        this.list.add(person7);
+        this.persons.add(person1);
+        this.persons.add(person2);
+        this.persons.add(person3);
+        this.persons.add(person4);
+        this.persons.add(person5);
+        this.persons.add(person7);
     }
-
 
     public boolean add(String request){
         Gson gson = new Gson();
@@ -60,7 +56,7 @@ public class Server {
             return false;
         if (person.getAge() == null)
             return false;
-        this.list.add(person);
+        this.persons.add(person);
         return true;
     }
 
@@ -69,12 +65,12 @@ public class Server {
         try {
             Person person = gson.fromJson(request, Person.class);
         } catch (JsonSyntaxException e) {
-            return null;
+            return "Error";
         }
         Person person = gson.fromJson(request, Person.class);
-        String result = null;
+        String result;
         Person resultPerson;
-        for (Person temp : this.list) {
+        for (Person temp : this.persons) {
             if (person.getFirstName().equals(temp.getFirstName())) {
                 if (person.getLastName().equals(temp.getLastName())) {
                     if ((person.getAge() == null) || (temp.getAge()) == null) {
@@ -90,11 +86,11 @@ public class Server {
                 }
             }
         }
-        return result;
+        return "Not found";
     }
 
     public void printAll() {
-        System.out.println(this.list);
+        System.out.println(this.persons);
     }
 }
 

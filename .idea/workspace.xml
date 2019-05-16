@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259e1de5-8350-4754-a390-e5e567fa2df7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/882a8d5d-4db4-4f2b-aa70-a47ec92da61a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/omsu/imit/course3/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,69 +70,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://DATABASE/5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</OriginalElement>
-              <nodes>
-                <node x="0.0" y="0.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="58.0" />
-              <SelectedNodes>
-                <node>5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Key columns</Category>
-                <Category>Columns</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="100" column="24" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://5decac3e-bd70-4f00-87b6-cf14cc77145f/schema/bookstore/table/books">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,13 +100,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="204">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1555585575105" expanded="true" signature="307:2848" ph="..." />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCBookstore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2014">
+              <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1557979989589" expanded="true" signature="1531:4072" ph="..." />
               </folding>
             </state>
           </provider>
@@ -158,11 +163,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="357">
+              <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3192#3193#0" expanded="true" />
+                <element signature="e#2551#2552#0" expanded="true" />
+                <element signature="e#2599#2600#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="438">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,11 +211,16 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBC.java" />
         <option value="$PROJECT_DIR$/bookstore.sql" />
         <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/omsu/imit/course3/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCBookstore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Home.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" />
         <option value="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" />
       </list>
     </option>
   </component>
@@ -226,14 +237,14 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,6 +295,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +306,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -307,9 +320,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.Client" />
+  <component name="RunManager" selected="JUnit.ClientTest.testErrorAdd">
+    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="course3" />
       <extension name="coverage">
         <pattern>
@@ -317,12 +329,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.omsu.imit.course3" />
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.ClientTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.JDBCdemo" />
+    <configuration name="ClientTest.testErrorAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="course3" />
       <extension name="coverage">
         <pattern>
@@ -330,12 +344,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.omsu.imit.course3" />
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.ClientTest" />
+      <option name="METHOD_NAME" value="testErrorAdd" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.Server" />
+    <configuration name="ClientTest.testErrorGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="course3" />
       <extension name="coverage">
         <pattern>
@@ -343,15 +360,53 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.omsu.imit.course3" />
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.ClientTest" />
+      <option name="METHOD_NAME" value="testErrorGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest.testSuccessAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.omsu.imit.course3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.omsu.imit.course3" />
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.ClientTest" />
+      <option name="METHOD_NAME" value="testSuccessAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest.testSuccessGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.omsu.imit.course3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.omsu.imit.course3" />
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.ClientTest" />
+      <option name="METHOD_NAME" value="testSuccessGet" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.JDBCdemo" />
+        <item itemvalue="JUnit.ClientTest.testErrorAdd" />
+        <item itemvalue="JUnit.ClientTest.testErrorGet" />
+        <item itemvalue="JUnit.ClientTest.testSuccessGet" />
+        <item itemvalue="JUnit.ClientTest.testSuccessAdd" />
+        <item itemvalue="JUnit.ClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +425,9 @@
       <workItem from="1554940375705" duration="5090000" />
       <workItem from="1554946106524" duration="11078000" />
       <workItem from="1555074611097" duration="3372000" />
-      <workItem from="1555573341170" duration="7021000" />
+      <workItem from="1555573341170" duration="9792000" />
+      <workItem from="1555770433693" duration="6279000" />
+      <workItem from="1557972449398" duration="7312000" />
     </task>
     <task id="LOCAL-00001" summary="task 2">
       <created>1554955077771</created>
@@ -386,17 +443,56 @@
       <option name="project" value="LOCAL" />
       <updated>1554955315265</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create tcp">
+      <created>1555585662948</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555585662949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 07m 32s.xml">
+      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 08m 21s.xml">
+      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 08m 45s.xml">
+      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 08m 55s.xml">
+      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 10m 16s.xml">
+      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.05.16 at 10h 11m 33s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.05.16 at 10h 12m 51s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest - 2019.05.16 at 10h 13m 12s.xml">
+      <configuration name="ClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 15m 14s.xml">
+      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 16m 09s.xml">
+      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29161000" />
+    <option name="totallyTimeSpent" value="45523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,7 +533,8 @@
     </ignored-roots>
     <MESSAGE value="task 2" />
     <MESSAGE value="update some queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="update some queries" />
+    <MESSAGE value="create tcp" />
+    <option name="LAST_COMMIT_MESSAGE" value="create tcp" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://882a8d5d-4db4-4f2b-aa70-a47ec92da61a/schema/bookstore/table/books" />
@@ -451,13 +548,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5decac3e-bd70-4f00-87b6-cf14cc77145f/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://W:/Home/Desktop/MediaLib.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -548,6 +638,7 @@
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -569,23 +660,29 @@
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="das://5decac3e-bd70-4f00-87b6-cf14cc77145f/schema/bookstore/table/books">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <filtering enabled="true" />
+          <filtering />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.sql/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="24" />
+        <state relative-caret-position="410">
+          <caret line="951" column="8" selection-start-line="951" selection-start-column="8" selection-end-line="951" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="19" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -596,51 +693,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="204">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java">
+    <entry file="file://$PROJECT_DIR$/project.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1555585575105" expanded="true" signature="307:2848" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCBookstore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2014">
+          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3192#3193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="438">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2551#2552#0" expanded="true" />
+            <element signature="e#2599#2600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1557979989589" expanded="true" signature="1531:4072" ph="..." />
           </folding>
         </state>
       </provider>

@@ -2,18 +2,52 @@ package ru.omsu.imit.course3;
 
 import com.google.gson.Gson;
 import org.junit.*;
-
 import static junit.framework.TestCase.assertEquals;
 
 
 public class ClientTest {
     @Test
-    public void test(){
+    public void testErrorAdd(){
     Server server = new Server();
     Client client = new Client();
     server.run();
-    client.run();
+    String answer = client.send("Add something");
+    assertEquals("Adding error",answer);
+    }
 
+    @Test
+    public void testErrorGet(){
+        Server server = new Server();
+        Client client = new Client();
+        server.run();
+        String answer = client.send("Get something");
+        assertEquals("Error", answer);
+    }
+
+    @Test
+    public void testSuccessGet(){
+        Server server = new Server();
+        Client client = new Client();
+        server.run();
+        Gson gson = new Gson();
+        Person person1 = new Person("Vasya", "Pupkin", 15);
+        String jsonPerson = gson.toJson(person1);
+        String answer = client.send("Get " + jsonPerson);
+        assertEquals(jsonPerson, answer);
+    }
+
+    @Test
+    public void testSuccessAdd() {
+        Server server = new Server();
+        Client client = new Client();
+        server.run();
+        Gson gson = new Gson();
+        Person person1 = new Person("Bib", "Bob", 15);
+        String jsonPerson = gson.toJson(person1);
+        String answer = client.send("Add " + jsonPerson);
+        assertEquals("Added", answer);
+        answer = client.send("Get "+ jsonPerson);
+        assertEquals(jsonPerson, answer);
     }
 
 //    @Test
