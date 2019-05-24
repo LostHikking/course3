@@ -1,13 +1,14 @@
-package ru.omsu.imit.course3;
+package ru.omsu.imit.course3.lab3;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.net.*;
-import java.io.*;
 
 public class Server {
     private List<Person> persons = Collections.synchronizedList(new ArrayList<>());

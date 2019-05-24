@@ -1,15 +1,9 @@
-package ru.omsu.imit.course3;
-
-import com.google.gson.Gson;
-import com.google.gson.JsonSyntaxException;
+package ru.omsu.imit.course3.lab3;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 public class ClientServiceThread extends Thread {
     private Server server;
@@ -31,7 +25,7 @@ public class ClientServiceThread extends Thread {
             while (true) {
                 String answer = "Error";
                 String clientCommand = in.readUTF();
-                String partCommand[] = clientCommand.split("\\s+");
+                String[] partCommand = clientCommand.split("\\s+");
                 if (addCommand.equalsIgnoreCase(partCommand[0]))
                 {
                     if (server.add(partCommand[1]))

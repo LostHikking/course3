@@ -1,4 +1,4 @@
-package ru.omsu.imit.course3;
+package ru.omsu.imit.course3.lab4;
 
 import java.io.Serializable;
 

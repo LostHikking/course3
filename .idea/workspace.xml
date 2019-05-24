@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259e1de5-8350-4754-a390-e5e567fa2df7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Applicant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Discipline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/SelectionCommittee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/SelectionCommitteeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Specialty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/config/SelectionCommitteeResourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/config/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/resources/SelectionCommitteeResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/rest/request/DBItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/rest/response/BaseResponseObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/rest/response/EmptySuccessResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/rest/response/TodoItemInfoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab3/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab3/ClientServiceThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCBookstore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab2/JDBCBookstore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab3/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab3/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/PersonClientTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,20 +65,28 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bookstore: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="selectioncommittee: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bookstore: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="books: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="selectioncommittee: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="disciplines: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="medialibrary: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="selectioncommittee: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="resultsofexams: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="selectioncommittee: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="specialty: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -70,28 +97,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/rest/request/ServerRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="625">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,37 +109,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Home.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Score.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#972#973#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="61">
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,46 +130,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCBookstore.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/resources/ServerResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2014">
-              <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+            <state relative-caret-position="401">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/PersonClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1557979989589" expanded="true" signature="1531:4072" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2551#2552#0" expanded="true" />
-                <element signature="e#2599#2600#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,8 +154,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/omsu/imit/todolist/clienttests/TodoClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/client/PersonClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -197,6 +186,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -206,21 +196,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/882a8d5d-4db4-4f2b-aa70-a47ec92da61a/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/selectioncommittee/server/rest/request/TodoItemRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/rest/request/TodoItemRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Applications.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Specialty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Faculty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/rest/request/TodoItemRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/todolist/resources/TodoListResource1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/config/Settings.java" />
+        <option value="$PROJECT_DIR$/todolist.log" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/todolist/resources/TodoListResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/SelectionCommitteeServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/config/SelectionCommitteeResourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Application.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBC.java" />
-        <option value="$PROJECT_DIR$/bookstore.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/omsu/imit/course3/ClientTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCBookstore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Home.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java" />
+        <option value="$PROJECT_DIR$/library.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/tables/records/ApplicantsRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/tables/Applicants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/tables/Applications.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/tables/Disciplines.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/tables/Faculties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/tables/Resultsofexams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/tables/Specialty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/tables/Specialtyoffaculties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/Indexes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/Keys.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/Selectioncommittee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/DefaultCatalog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/generated/Tables.java" />
+        <option value="$PROJECT_DIR$/SelectionCommittee.sql" />
+        <option value="$PROJECT_DIR$/SelectionCommittee.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Applicant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Discipline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Score.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/resources/SelectionCommitteeResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/rest/request/DBItemRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/ServerResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/config/ServerResourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/Person.java" />
         <option value="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/rest/request/ServerRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/resources/ServerResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/TodoListClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/client/TodoListClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/client/PersonClient.java" />
+        <option value="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/clienttests/BaseClientTest.java" />
+        <option value="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/clienttests/TodoClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/resources/ServerResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/rest/request/ServerRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/ru/omsu/imit/course3/PersonClientTest.java" />
       </list>
     </option>
   </component>
@@ -228,14 +254,50 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="course3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="course3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="course3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="course3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="jar" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="course3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8.0_201" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="573" />
-    <option name="y" value="232" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="y" value="40" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -250,53 +312,154 @@
           <expand>
             <path>
               <item name="course3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imit" type="462c0819:PsiDirectoryNode" />
               <item name="course3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imit" type="462c0819:PsiDirectoryNode" />
               <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imit" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imit" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imit" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imit" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imit" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="selectioncommittee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imit" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="selectioncommittee" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="imit" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="selectioncommittee" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="_course3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="course3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,9 +467,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/selectioncommittee/server" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wiper\IdeaProjects\_course3\src\main\java\ru\omsu\imit\course3\selectioncommittee\server" />
+      <recent name="C:\Users\wiper\IdeaProjects\_course3\src\main\java\ru\omsu\imit\course3\selectioncommittee" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.omsu.imit.course3.lab4" />
+      <recent name="ru.omsu.imit.todolist.resources" />
+      <recent name="ru.omsu.imit.course3.selectioncommittee.server.resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wiper\IdeaProjects\_course3\src\test\ru\omsu\imit\course3" />
+      <recent name="C:\Users\wiper\IdeaProjects\_course3\src\main\java\ru\omsu\imit\course3\lab5\server\selectioncommittee" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -320,24 +501,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClientTest.testErrorAdd">
-    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course3" />
+  <component name="RunManager" selected="JUnit.PersonClientTest.testGet">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.lab4.server.Server" />
+      <module name="_course3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.omsu.imit.course3.*" />
+          <option name="PATTERN" value="ru.omsu.imit.course3.lab4.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.omsu.imit.course3" />
-      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.ClientTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest.testErrorAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course3" />
+    <configuration name="PersonClientTest.testErrorAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_course3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.omsu.imit.course3.*" />
@@ -345,15 +524,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.omsu.imit.course3" />
-      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.ClientTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.PersonClientTest" />
       <option name="METHOD_NAME" value="testErrorAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest.testErrorGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course3" />
+    <configuration name="PersonClientTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_course3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.omsu.imit.course3.*" />
@@ -361,15 +540,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.omsu.imit.course3" />
-      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.ClientTest" />
-      <option name="METHOD_NAME" value="testErrorGet" />
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.PersonClientTest" />
+      <option name="METHOD_NAME" value="testGet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest.testSuccessAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course3" />
+    <configuration name="PersonClientTest.testPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_course3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.omsu.imit.course3.*" />
@@ -377,36 +556,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.omsu.imit.course3" />
-      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.ClientTest" />
-      <option name="METHOD_NAME" value="testSuccessAdd" />
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.PersonClientTest" />
+      <option name="METHOD_NAME" value="testPost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest.testSuccessGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course3" />
+    <configuration name="TodoClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_course3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.omsu.imit.course3.*" />
+          <option name="PATTERN" value="ru.omsu.imit.todolist.clienttests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.omsu.imit.course3" />
-      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.course3.ClientTest" />
-      <option name="METHOD_NAME" value="testSuccessGet" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="java.ru.omsu.imit.todolist.clienttests" />
+      <option name="MAIN_CLASS_NAME" value="ru.omsu.imit.todolist.clienttests.TodoClientTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClientTest.testErrorAdd" />
-        <item itemvalue="JUnit.ClientTest.testErrorGet" />
-        <item itemvalue="JUnit.ClientTest.testSuccessGet" />
-        <item itemvalue="JUnit.ClientTest.testSuccessAdd" />
-        <item itemvalue="JUnit.ClientTest" />
+        <item itemvalue="JUnit.PersonClientTest.testGet" />
+        <item itemvalue="JUnit.PersonClientTest.testPost" />
+        <item itemvalue="Application.TodoListServer" />
+        <item itemvalue="JUnit.PersonClientTest.testErrorAdd" />
+        <item itemvalue="JUnit.TodoClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -428,6 +606,11 @@
       <workItem from="1555573341170" duration="9792000" />
       <workItem from="1555770433693" duration="6279000" />
       <workItem from="1557972449398" duration="7312000" />
+      <workItem from="1558520073509" duration="4107000" />
+      <workItem from="1558542712664" duration="598000" />
+      <workItem from="1558555485360" duration="3165000" />
+      <workItem from="1558599897637" duration="21620000" />
+      <workItem from="1558664039115" duration="19038000" />
     </task>
     <task id="LOCAL-00001" summary="task 2">
       <created>1554955077771</created>
@@ -454,45 +637,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 07m 32s.xml">
-      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    <history-entry file="PersonClientTest_testPost - 2019.05.24 at 14h 29m 01s.xml">
+      <configuration name="PersonClientTest.testPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 08m 21s.xml">
-      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    <history-entry file="PersonClientTest_testPost - 2019.05.24 at 14h 29m 18s.xml">
+      <configuration name="PersonClientTest.testPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 08m 45s.xml">
-      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    <history-entry file="PersonClientTest_testPost - 2019.05.24 at 14h 30m 44s.xml">
+      <configuration name="PersonClientTest.testPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 08m 55s.xml">
-      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    <history-entry file="PersonClientTest_testPost - 2019.05.24 at 14h 34m 03s.xml">
+      <configuration name="PersonClientTest.testPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 10m 16s.xml">
-      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    <history-entry file="PersonClientTest_testPost - 2019.05.24 at 14h 36m 28s.xml">
+      <configuration name="PersonClientTest.testPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest - 2019.05.16 at 10h 11m 33s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
+    <history-entry file="PersonClientTest_testPost - 2019.05.24 at 14h 37m 41s.xml">
+      <configuration name="PersonClientTest.testPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest - 2019.05.16 at 10h 12m 51s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
+    <history-entry file="PersonClientTest_testPost - 2019.05.24 at 14h 39m 12s.xml">
+      <configuration name="PersonClientTest.testPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest - 2019.05.16 at 10h 13m 12s.xml">
-      <configuration name="ClientTest" configurationId="JUnit" />
+    <history-entry file="PersonClientTest_testPost - 2019.05.24 at 14h 40m 36s.xml">
+      <configuration name="PersonClientTest.testPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 15m 14s.xml">
-      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    <history-entry file="PersonClientTest_testPost - 2019.05.24 at 14h 40m 43s.xml">
+      <configuration name="PersonClientTest.testPost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest_testSuccessAdd - 2019.05.16 at 10h 16m 09s.xml">
-      <configuration name="ClientTest.testSuccessAdd" configurationId="JUnit" />
+    <history-entry file="PersonClientTest_testGet - 2019.05.24 at 14h 41m 26s.xml">
+      <configuration name="PersonClientTest.testGet" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45523000" />
+    <option name="totallyTimeSpent" value="94051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23081024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -500,28 +682,30 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48933902" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49520257" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Console" order="7" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Console" order="7" sideWeight="0.49733475" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.1375948" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49733475" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.510661" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49733475" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.17324094" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.3160981" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,264 +720,551 @@
     <MESSAGE value="create tcp" />
     <option name="LAST_COMMIT_MESSAGE" value="create tcp" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/rest/request/ServerRequest.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/resources/ServerResource.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="das://882a8d5d-4db4-4f2b-aa70-a47ec92da61a/schema/bookstore/table/books" />
-    <entry file="das://882a8d5d-4db4-4f2b-aa70-a47ec92da61a/schema/bookstore/table/bk" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/882a8d5d-4db4-4f2b-aa70-a47ec92da61a/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/omsu/imit/todolist/clienttests/BaseClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/rest/request/DBItemRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7937#7938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/internal/Streams.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/internal/$Gson$Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/internal/$Gson$Types.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/reflect/TypeToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+          <folding>
+            <element signature="e#6599#6600#0" expanded="true" />
+            <element signature="e#6635#6636#0" expanded="true" />
+            <element signature="e#6912#6913#0" expanded="true" />
+            <element signature="e#6954#6955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/stream/JsonWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1744#1745#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#3628#3629#0" expanded="true" />
+            <element signature="e#3687#3688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/Gson.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab3/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#700#701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.26/jersey-server-2.26.jar!/org/glassfish/jersey/server/internal/process/MappableException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.3.v20170317/jetty-util-9.4.3.v20170317.jar!/org/eclipse/jetty/util/thread/Invocable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.3.v20170317/jetty-util-9.4.3.v20170317.jar!/org/eclipse/jetty/util/thread/strategy/ExecuteProduceConsume.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.3.v20170317/jetty-util-9.4.3.v20170317.jar!/org/eclipse/jetty/util/thread/strategy/ExecutingExecutionStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.26/jersey-server-2.26.jar!/org/glassfish/jersey/server/model/internal/ResourceMethodInvocationHandlerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar!/org/glassfish/jersey/process/internal/RequestScope.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.3.v20170317/jetty-server-9.4.3.v20170317.jar!/org/eclipse/jetty/server/HttpConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.4.3.v20170317/jetty-io-9.4.3.v20170317.jar!/org/eclipse/jetty/io/AbstractConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+          <folding>
+            <element signature="e#5503#5504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.4.3.v20170317/jetty-io-9.4.3.v20170317.jar!/org/eclipse/jetty/io/FillInterest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.4.3.v20170317/jetty-io-9.4.3.v20170317.jar!/org/eclipse/jetty/io/ChannelEndPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#1894#1895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar!/org/glassfish/jersey/internal/Errors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.3.v20170317/jetty-util-9.4.3.v20170317.jar!/org/eclipse/jetty/util/thread/QueuedThreadPool.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5decac3e-bd70-4f00-87b6-cf14cc77145f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://W:/Home/Desktop/MediaLib.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="142" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/5decac3e-bd70-4f00-87b6-cf14cc77145f.SCHEMA:medialibrary">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>5decac3e-bd70-4f00-87b6-cf14cc77145f.SCHEMA:medialibrary</OriginalElement>
-          <nodes>
-            <node x="469.25" y="321.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.collections</node>
-            <node x="0.0" y="133.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.persons</node>
-            <node x="285.0" y="166.5">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.genres</node>
-            <node x="461.5" y="133.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies</node>
-            <node x="636.25" y="321.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.files</node>
-            <node x="314.25" y="332.5">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.genre_of_movies</node>
-            <node x="211.95833333333337" y="0.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.countries</node>
-            <node x="131.375" y="310.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.crew</node>
-            <node x="656.75" y="122.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.sources</node>
-            <node x="150.0" y="166.5">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.roles</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.crew" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies">
-              <point x="38.33333333333334" y="-58.0" />
-              <point x="227.20833333333334" y="280.0" />
-              <point x="477.75" y="280.0" />
-              <point x="-48.75" y="58.0" />
-            </edge>
-            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.files" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.sources">
-              <point x="31.0" y="-47.0" />
-              <point x="0.0" y="69.0" />
-            </edge>
-            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.crew" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.persons">
-              <point x="-38.33333333333334" y="-58.0" />
-              <point x="150.54166666666666" y="290.0" />
-              <point x="65.0" y="290.0" />
-              <point x="0.0" y="58.0" />
-            </edge>
-            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.persons" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.countries">
-              <point x="0.0" y="-58.0" />
-              <point x="65.0" y="97.0" />
-              <point x="256.45833333333337" y="97.0" />
-              <point x="-44.5" y="36.0" />
-            </edge>
-            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.crew" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.roles">
-              <point x="0.0" y="-58.0" />
-              <point x="188.875" y="290.0" />
-              <point x="207.5" y="290.0" />
-              <point x="0.0" y="24.5" />
-            </edge>
-            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.genre_of_movies" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies">
-              <point x="33.75" y="-35.5" />
-              <point x="415.5" y="290.0" />
-              <point x="510.25" y="290.0" />
-              <point x="-16.25" y="58.0" />
-            </edge>
-            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.files" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies">
-              <point x="-31.0" y="-47.0" />
-              <point x="667.25" y="290.0" />
-              <point x="575.25" y="290.0" />
-              <point x="48.75" y="58.0" />
-            </edge>
-            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.countries">
-              <point x="0.0" y="-58.0" />
-              <point x="526.5" y="97.0" />
-              <point x="345.45833333333337" y="97.0" />
-              <point x="44.5" y="36.0" />
-            </edge>
-            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.collections" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.movies">
-              <point x="0.0" y="-47.0" />
-              <point x="16.25" y="58.0" />
-            </edge>
-            <edge source="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.genre_of_movies" target="5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.genres">
-              <point x="-33.75" y="-35.5" />
-              <point x="0.0" y="24.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6185567010309279" x="378.0" y="213.0" />
-          <SelectedNodes>
-            <node>5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:medialibrary.files</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="58.0" />
-          <SelectedNodes>
-            <node>5decac3e-bd70-4f00-87b6-cf14cc77145f.TABLE:bookstore.books</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5decac3e-bd70-4f00-87b6-cf14cc77145f/schema/bookstore/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCdemo.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.sql/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="951" column="8" selection-start-line="951" selection-start-column="8" selection-end-line="951" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#0#20635#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/Test.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar!/org/glassfish/jersey/internal/util/collection/Values.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="159">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#7050#7051#0" expanded="true" />
+            <element signature="e#7091#7092#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/test/User.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar!/org/glassfish/jersey/internal/ExceptionMapperFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+        <state relative-caret-position="159">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/JDBCBookstore.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-jetty-http/2.26/jersey-container-jetty-http-2.26.jar!/org/glassfish/jersey/jetty/JettyHttpContainer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2014">
-          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+        <state relative-caret-position="278">
+          <caret line="299" selection-start-line="299" selection-end-line="299" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Client.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.3.v20170317/jetty-server-9.4.3.v20170317.jar!/org/eclipse/jetty/server/HttpChannel.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="176">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+          <folding>
+            <element signature="e#23049#23050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.3.v20170317/jetty-server-9.4.3.v20170317.jar!/org/eclipse/jetty/server/Response.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="1000" selection-start-line="1000" selection-end-line="1000" />
+          <folding>
+            <element signature="e#4052#4053#0" expanded="true" />
+            <element signature="e#4098#4099#0" expanded="true" />
+            <element signature="e#38345#38346#0" expanded="true" />
+            <element signature="e#38957#38958#0" expanded="true" />
+            <element signature="e#39007#39008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.3.v20170317/jetty-server-9.4.3.v20170317.jar!/org/eclipse/jetty/server/HttpOutput.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="695" selection-start-line="695" selection-end-line="695" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar!/org/glassfish/jersey/message/internal/TracingAwarePropertiesDelegate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.26/jersey-server-2.26.jar!/org/glassfish/jersey/server/ContainerRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="e#5179#5180#0" expanded="true" />
+            <element signature="e#5221#5222#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.26/jersey-server-2.26.jar!/org/glassfish/jersey/server/ServerRuntime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="682" selection-start-line="682" selection-end-line="682" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.26/jersey-server-2.26.jar!/org/glassfish/jersey/server/model/ResourceMethodInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="279" selection-start-line="279" selection-end-line="279" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.26/jersey-server-2.26.jar!/org/glassfish/jersey/server/model/internal/AbstractJavaResourceMethodDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.26/jersey-server-2.26.jar!/org/glassfish/jersey/server/internal/LocalizationMessages.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+          <folding>
+            <element signature="e#8756#8757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar!/org/glassfish/jersey/internal/l10n/Localizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar!/org/glassfish/jersey/internal/l10n/LocalizableMessageFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar!/org/glassfish/jersey/internal/l10n/LocalizableMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.26/jersey-server-2.26.jar!/org/glassfish/jersey/server/internal/monitoring/EmptyRequestEventBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1550#1551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.26/jersey-server-2.26.jar!/org/glassfish/jersey/server/internal/process/RequestProcessingContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2446#2447#0" expanded="true" />
+            <element signature="e#3258#3259#0" expanded="true" />
+            <element signature="e#3308#3309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.26/jersey-common-2.26.jar!/org/glassfish/jersey/message/internal/TracingLogger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#2854#2855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/client.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/clienttests/BaseClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/clienttests/TodoClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/ClientServiceThread.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/omsu/imit/todolist/clienttests/TodoClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/client/PersonClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
+        <state relative-caret-position="190">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/rest/request/ServerRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2551#2552#0" expanded="true" />
-            <element signature="e#2599#2600#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/ClientTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab5/server/selectioncommittee/Score.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/lab4/server/resources/ServerResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1557979989589" expanded="true" signature="1531:4072" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ru/omsu/imit/course3/PersonClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>_course3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

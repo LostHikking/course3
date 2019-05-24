@@ -1,8 +1,13 @@
-package ru.omsu.imit.course3;
+package ru.omsu.imit.course3.lab3;
 
 import com.google.gson.Gson;
-import java.net.*;
-import java.io.*;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.UnknownHostException;
 
 
 public class Client {

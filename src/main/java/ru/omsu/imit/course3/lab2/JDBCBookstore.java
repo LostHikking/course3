@@ -1,4 +1,4 @@
-package ru.omsu.imit.course3;
+package ru.omsu.imit.course3.lab2;
 
 import java.sql.*;
 
