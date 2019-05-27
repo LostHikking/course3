@@ -1,6 +1,8 @@
 package ru.omsu.imit.course3;
 
 import com.google.gson.Gson;
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import ru.omsu.imit.course3.lab4.Person;
 import ru.omsu.imit.course3.lab4.client.PersonClient;
@@ -11,24 +13,29 @@ import static junit.framework.TestCase.assertEquals;
 
 
 public class PersonClientTest {
+    private String  ip = "localhost";
+    private String  port = "8888";
+    private PersonClient personClient;
+
+    @Before
+    public  void startServer(){
+        Server.createServer();
+        personClient = new PersonClient();
+    }
+
 
     @Test
     public void testGet() {
-        Server.main(null);
-        ServerRequest server = new ServerRequest();
-        PersonClient personClient = new PersonClient();
-        Person person = new Person(null, "Pupkin", null);
+        Person personForSearch = new Person(null, "Pupkin", null);
         Gson gson = new Gson();
-        Person response = (Person) personClient.get("http://localhost:8888/api/person?lastName=" + person.getLastName(), Person.class);
-        String json = gson.toJson(person);
-        assertEquals(gson.toJson(response), server.get(json));
+        Person expectedPerson = new Person("Vasya", "Pupkin", 15);
+        Person response = (Person) personClient.get(urlGenerate(personForSearch.getLastName(),personForSearch.getFirstName(),personForSearch.getAge()), Person.class);
+        assertEquals(gson.toJson(response), gson.toJson(expectedPerson));
     }
 
     @Test
     public void testPost() {
-        Server.main(null);
         ServerRequest server = new ServerRequest();
-        PersonClient personClient = new PersonClient();
         Person person = new Person("Petya", "Pupkin", 25);
         Gson gson = new Gson();
         Person responseFromFirstGet = (Person) personClient.get("http://localhost:8888/api/person?lastName=" + person.getLastName() + "&firstName=" + person.getFirstName() + "&age" + person.getAge(), Person.class);
@@ -38,10 +45,30 @@ public class PersonClientTest {
         assertEquals(gson.toJson(responseFromGet), gson.toJson(responseFromPost));
     }
 
+    @After
+    public void stopServer(){
+        Server.stopServer();
+    }
+
+
+    public String urlGenerate(String lastName, String firstName, Integer age){
+        String url = "http://" + ip + ":" + port + "/api/person?";
+        if (!(lastName == null)){
+            url = url + "lastName=" + lastName;
+        }
+        if (!(firstName == null)){
+            url = url + "firstName=" + firstName;
+        }
+        if (!(age == null)){
+            url = url + "age=" + age;
+        }
+        return url;
+    }
+
 //    @Test
 //    public void testErrorGet(){
 //        Server server = new Server();
-//        PersonClient personClient = new PersonClient();
+//        Client personClient = new Client();
 //        server.run();
 //        String answer = personClient.send("Get something");
 //        assertEquals("Error", answer);
@@ -50,7 +77,7 @@ public class PersonClientTest {
 //    @Test
 //    public void testSuccessGet(){
 //        Server server = new Server();
-//        PersonClient personClient = new PersonClient();
+//        Client personClient = new Client();
 //        server.run();
 //        Gson gson = new Gson();
 //        Person person1 = new Person("Vasya", "Pupkin", 15);
@@ -62,7 +89,7 @@ public class PersonClientTest {
 //    @Test
 //    public void testSuccessAdd() {
 //        Server server = new Server();
-//        PersonClient personClient = new PersonClient();
+//        Client personClient = new Client();
 //        server.run();
 //        Gson gson = new Gson();
 //        Person person1 = new Person("Bib", "Bob", 15);

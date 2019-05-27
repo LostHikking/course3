@@ -14,6 +14,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
 import static ru.omsu.imit.course3.lab5.server.selectioncommittee.jooq.generated.Tables.*;
@@ -273,7 +274,11 @@ public class DBItemRequest {
                     .getValue(APPLICATIONS.ID);
         } catch (org.jooq.exception.DataAccessException e) {
             return -1;
-        } catch (Exception e) {
+        }
+        catch (NullPointerException e){
+            return -2;
+        }
+        catch (Exception e) {
             e.printStackTrace();
             throw new RuntimeException(e);
         }
@@ -289,9 +294,12 @@ public class DBItemRequest {
                 application.setApplicantID(it.getValue(APPLICATIONS.APPLICANT_ID));
                 return application;
             }).findAny().get();
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw new RuntimeException(e);
+        }
+        catch (NoSuchElementException e){
+            return null;
+        }
+        catch (Exception e) {
+            return null;
         }
     }
 

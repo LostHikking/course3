@@ -8,6 +8,16 @@ public class Application implements Serializable {
     private int applicantID;
     private int specialtyID;
 
+    public Application(int id, int applicantID, int specialtyID) {
+        this.id = id;
+        this.applicantID = applicantID;
+        this.specialtyID = specialtyID;
+    }
+
+    public Application(){
+
+    }
+
     public int getId() {
         return id;
     }

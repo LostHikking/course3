@@ -73,16 +73,19 @@ public class SelectionCommitteeResource {
         try {
             Application application = GSON.fromJson(json, Application.class);
             int id = request.AddApplication(application);
-            return Response.created(URI.create("api/committee/application/" + id)).build();
+            if (id>0) {
+                return Response.created(URI.create("api/committee/application/" + id)).build();
+            }
         } catch (JsonSyntaxException e) {
             return Response.status(Response.Status.BAD_REQUEST).build();
         }
+        return Response.status(400).build();
     }
 
     @GET
     @Path("/committee/application/{id}")
     @Produces("application/json")
-    public Response getApplivationById(@PathParam(value = "id") int id) {
+    public Response getApplicationById(@PathParam(value = "id") int id) {
         String response = GSON.toJson(request.getApplicationByID(id));
         return Response.ok(response, MediaType.APPLICATION_JSON).build();
     }
@@ -101,11 +104,14 @@ public class SelectionCommitteeResource {
     public Response editApplicationById(@PathParam(value = "id") int id, String json) {
         Application application = GSON.fromJson(json, Application.class);
         int _id = request.UpdateApplication(application, id);
-        return Response.created(URI.create("api/committee/application" + _id)).build();
+        if (_id >= 0) {
+            return Response.ok(request.getApplicationByID(_id), MediaType.APPLICATION_JSON_TYPE).build();
+        }
+        return Response.status(400).build();
     }
 
     @DELETE
-    @Path("/committe/{id}")
+    @Path("/committe/application/{id}")
     @Produces("application/json")
     public Response deleteApplicationById(@PathParam(value = "id") int id) {
         int _id = request.DeleteApplication(id);
