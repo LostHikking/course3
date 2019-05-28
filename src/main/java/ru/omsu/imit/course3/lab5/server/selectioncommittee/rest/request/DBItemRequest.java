@@ -232,10 +232,9 @@ public class DBItemRequest {
     public int DeleteApplication(int id) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
             DSLContext create = DSL.using(conn, SQLDialect.MYSQL);
-            create.delete(APPLICATIONS)
+            return create.delete(APPLICATIONS)
                     .where(APPLICATIONS.ID.eq(id))
                     .execute();
-            return 1;
         } catch (org.jooq.exception.DataAccessException e) {
             return -1;
         } catch (Exception e) {
@@ -261,7 +260,7 @@ public class DBItemRequest {
         }
     }
 
-    public int UpdateApplication(Application application, int id) {
+    public Integer UpdateApplication(Application application, int id) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
             DSLContext create = DSL.using(conn, SQLDialect.MYSQL);
             return create.update(APPLICATIONS)
@@ -269,14 +268,9 @@ public class DBItemRequest {
                     .set(APPLICATIONS.APPLICANT_ID, application.getApplicantID())
                     .set(APPLICATIONS.SPECIALTY_ID, application.getSpecialtyID())
                     .where(APPLICATIONS.ID.eq(id))
-                    .returning(APPLICATIONS.ID)
-                    .fetchOne()
-                    .getValue(APPLICATIONS.ID);
+                    .execute();
         } catch (org.jooq.exception.DataAccessException e) {
             return -1;
-        }
-        catch (NullPointerException e){
-            return -2;
         }
         catch (Exception e) {
             e.printStackTrace();
@@ -292,6 +286,7 @@ public class DBItemRequest {
                 Application application = new Application();
                 application.setId(it.getValue(APPLICATIONS.ID));
                 application.setApplicantID(it.getValue(APPLICATIONS.APPLICANT_ID));
+                application.setSpecialtyID(it.getValue(APPLICATIONS.SPECIALTY_ID));
                 return application;
             }).findAny().get();
         }

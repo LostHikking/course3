@@ -56,77 +56,76 @@ CREATE TABLE ResultsOfExams
     FOREIGN KEY (discipline_id) REFERENCES Disciplines (id)
 );
 
+INSERT INTO Applicants (first_name, last_name, birthdate)
+VALUES ('Ivan','Petrov','1990-01-01');
+INSERT INTO Applicants (first_name, last_name, birthdate)
+VALUES ('Ivan','Petrov','1990-01-01');
+INSERT INTO Applicants (first_name, last_name, birthdate)
+VALUES ('Ivan', 'Petrov', '1990-01-01');
+INSERT INTO Applicants (first_name, last_name, birthdate)
+VALUES ('Ivan', 'Petrov', '1990-01-01');
+INSERT INTO Applicants (first_name, last_name, birthdate)
+VALUES ('Ivan', 'Petrov', '1990-01-01');
+INSERT INTO Applicants (first_name, last_name, birthdate)
+VALUES ('Ivan', 'Petrov', '1990-01-01');
+INSERT INTO Applicants (first_name, last_name, birthdate)
+VALUES ('Ivan', 'Petrov', '1990-01-01');
 
-INSERT INTO Applicants
-VALUES (null, "Ivan", "Petrov", "1990-01-01");
-INSERT INTO Applicants
-VALUES (null, "Ivan", "Petrov", "1990-01-01");
-INSERT INTO Applicants
-VALUES (null, "Ivan", "Petrov", "1990-01-01");
-INSERT INTO Applicants
-VALUES (null, "Ivan", "Petrov", "1990-01-01");
-INSERT INTO Applicants
-VALUES (null, "Ivan", "Petrov", "1990-01-01");
-INSERT INTO Applicants
-VALUES (null, "Ivan", "Petrov", "1990-01-01");
-INSERT INTO Applicants
-VALUES (null, "Ivan", "Petrov", "1990-01-01");
+INSERT INTO Disciplines (id, name)
+VALUES (null, 'Maths');
+INSERT INTO Disciplines (id, name)
+VALUES (null, 'Physics');
+INSERT INTO Disciplines (id, name)
+VALUES (null, 'Language');
+INSERT INTO Disciplines (id, name)
+VALUES (null, 'Biology');
+INSERT INTO Disciplines (id, name)
+VALUES (null, 'History');
 
-INSERT INTO Disciplines
-VALUES (null, "Maths");
-INSERT INTO Disciplines
-VALUES (null, "Physics");
-INSERT INTO Disciplines
-VALUES (null, "Language");
-INSERT INTO Disciplines
-VALUES (null, "Biology");
-INSERT INTO Disciplines
-VALUES (null, "History");
+INSERT INTO Faculties (id, name)
+VALUES (null, 'Торгово-пирожковый');
+INSERT INTO Faculties (id, name)
+VALUES (null, 'Пирожково-торговый');
+INSERT INTO Faculties (id, name)
+VALUES (null, 'Факультет сидения на лекциях');
+INSERT INTO Faculties (id, name)
+VALUES (null, 'Факультет котиков');
 
-INSERT INTO Faculties
-VALUES (null, "Торгово-пирожковый");
-INSERT INTO Faculties
-VALUES (null, "Пирожково-торговый");
-INSERT INTO Faculties
-VALUES (null, "Факультет сидения на лекциях");
-INSERT INTO Faculties
-VALUES (null, "Факультет котиков");
+INSERT INTO Specialty (id, code, faculty_id, name, first_discipline_id, second_discipline_id, third_discipline_id)
+VALUES (null, 3705, 1, 'IT', 1, 2, 4);
+INSERT INTO Specialty (id, code, faculty_id, name, first_discipline_id, second_discipline_id, third_discipline_id)
+VALUES (null, 3705, 2, 'History of Something', 5, 3, 4);
+INSERT INTO Specialty (id, code, faculty_id, name, first_discipline_id, second_discipline_id, third_discipline_id)
+VALUES (null, 3705, 3, 'Sitting culture', 5, 3, 4);
+INSERT INTO Specialty (id, code, faculty_id, name, first_discipline_id, second_discipline_id, third_discipline_id)
+VALUES (null, 3705, 4, 'How to...', 2, 3, 4);
+INSERT INTO Specialty (id, code, faculty_id, name, first_discipline_id, second_discipline_id, third_discipline_id)
+VALUES (null, 3705, 1, 'History of Something', 5, 3, 4);
+INSERT INTO Specialty (id, code, faculty_id, name, first_discipline_id, second_discipline_id, third_discipline_id)
+VALUES (null, 3705, 4, 'History of Something', 5, 3, 4);
 
-INSERT INTO Specialty
-VALUES (null, 3705, 1, "IT", 1, 2, 4);
-INSERT INTO Specialty
-VALUES (null, 3705, 2, "History of Something", 5, 3, 4);
-INSERT INTO Specialty
-VALUES (null, 3705, 3, "Sitting culture", 5, 3, 4);
-INSERT INTO Specialty
-VALUES (null, 3705, 4, "How to...", 2, 3, 4);
-INSERT INTO Specialty
-VALUES (null, 3705, 1, "History of Something", 5, 3, 4);
-INSERT INTO Specialty
-VALUES (null, 3705, 4, "History of Something", 5, 3, 4);
-
-INSERT INTO ResultsOfExams
+INSERT INTO ResultsOfExams (id, applicant_id, discipline_id, result)
 VALUES (NULL, 1, 2, 57);
-INSERT INTO ResultsOfExams
+INSERT INTO ResultsOfExams (id, applicant_id, discipline_id, result)
 VALUES (NULL, 2, 2, 58);
-INSERT INTO ResultsOfExams
+INSERT INTO ResultsOfExams (id, applicant_id, discipline_id, result)
 VALUES (NULL, 1, 1, 89);
-INSERT INTO ResultsOfExams
+INSERT INTO ResultsOfExams (id, applicant_id, discipline_id, result)
 VALUES (NULL, 3, 5, 100);
-INSERT INTO ResultsOfExams
+INSERT INTO ResultsOfExams (id, applicant_id, discipline_id, result)
 VALUES (NULL, 1, 4, 57);
 
-INSERT INTO Applications
+INSERT INTO Applications (id, applicant_id, specialty_id)
 VALUES (NULL, 1, 1);
-INSERT INTO Applications
+INSERT INTO Applications (id, applicant_id, specialty_id)
 VALUES (NULL, 1, 3);
-INSERT INTO Applications
+INSERT INTO Applications (id, applicant_id, specialty_id)
 VALUES (NULL, 1, 5);
-INSERT INTO Applications
+INSERT INTO Applications (id, applicant_id, specialty_id)
 VALUES (NULL, 2, 4);
-INSERT INTO Applications
+INSERT INTO Applications (id, applicant_id, specialty_id)
 VALUES (NULL, 2, 4);
-INSERT INTO Applications
+INSERT INTO Applications (id, applicant_id, specialty_id)
 VALUES (NULL, 3, 5);
-INSERT INTO Applications
+INSERT INTO Applications (id, applicant_id, specialty_id)
 VALUES (NULL, 6, 3);

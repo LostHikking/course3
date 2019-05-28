@@ -1,9 +1,11 @@
 package ru.omsu.imit.course3.lab5.server.selectioncommittee;
 
+
 import java.io.Serializable;
-import java.sql.Date;
+
 import java.util.ArrayList;
 import java.util.Collections;
+import java.sql.Date;
 import java.util.List;
 
 public class Applicant implements Serializable {
@@ -14,6 +16,9 @@ public class Applicant implements Serializable {
     private Date birhdate;
     private List<Application> applications = Collections.synchronizedList(new ArrayList<>());
     private List<Score> score = Collections.synchronizedList(new ArrayList<>());
+
+    public Applicant() {
+    }
 
     public int getId() {
         return id;

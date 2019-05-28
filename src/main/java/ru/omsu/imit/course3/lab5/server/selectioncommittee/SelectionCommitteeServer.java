@@ -33,6 +33,13 @@ public class SelectionCommitteeServer {
         LOGGER.info("Server started at port " + Settings.getRestHTTPPort());
     }
 
+    public static void createServer(int port) {
+        URI baseUri = UriBuilder.fromUri("http://localhost/").port(port).build();
+        SelectionCommitteeResourceConfig config = new SelectionCommitteeResourceConfig();
+        jettyServer = JettyHttpContainerFactory.createServer(baseUri, config);
+        LOGGER.info("Server started at port " + port);
+    }
+
     public static void stopServer() {
         LOGGER.info("Stopping server");
         try {

@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 public class Application implements Serializable {
     private static final long serialVersionUID = 784029545976931839L;
-    private int id;
-    private int applicantID;
-    private int specialtyID;
+    private Integer id;
+    private Integer applicantID;
+    private Integer specialtyID;
 
     public Application(int id, int applicantID, int specialtyID) {
         this.id = id;
@@ -15,30 +15,29 @@ public class Application implements Serializable {
     }
 
     public Application(){
-
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public int getApplicantID() {
+    public Integer getApplicantID() {
         return applicantID;
     }
 
-    public void setApplicantID(int applicantID) {
+    public void setApplicantID(Integer applicantID) {
         this.applicantID = applicantID;
     }
 
-    public int getSpecialtyID() {
+    public Integer getSpecialtyID() {
         return specialtyID;
     }
 
-    public void setSpecialtyID(int specialtyID) {
+    public void setSpecialtyID(Integer specialtyID) {
         this.specialtyID = specialtyID;
     }
 }

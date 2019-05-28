@@ -3,6 +3,7 @@ package ru.omsu.imit.course3.lab5.server.selectioncommittee.resources;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonSyntaxException;
+import com.google.gson.internal.bind.SqlDateTypeAdapter;
 import ru.omsu.imit.course3.lab5.server.selectioncommittee.Applicant;
 import ru.omsu.imit.course3.lab5.server.selectioncommittee.Application;
 import ru.omsu.imit.course3.lab5.server.selectioncommittee.rest.request.DBItemRequest;
@@ -11,12 +12,17 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.net.URI;
+import java.text.DateFormat;
 
 
 @Path("/api")
 public class SelectionCommitteeResource {
+    private static final SqlDateTypeAdapter sqlAdapter = new SqlDateTypeAdapter();
     private static final DBItemRequest request = new DBItemRequest();
-    private static final Gson GSON = new GsonBuilder().create();
+    private final Gson GSON = new GsonBuilder()
+            .registerTypeAdapter(java.util.Date.class, sqlAdapter)
+            .setDateFormat("yyyy-MM-dd")
+            .create();
 
     @POST
     @Path("/committee/applicant")
@@ -58,11 +64,17 @@ public class SelectionCommitteeResource {
     }
 
     @DELETE
-    @Path("/committe/applicant/{id}")
-    @Produces("application/json")
+    @Path("/committee/applicant/{id}")
+    @Produces("text/html")
     public Response deleteApplicantById(@PathParam(value = "id") int id) {
         int _id = request.DeleteApplicant(id);
-        return Response.ok("DELETED").build();
+        switch (_id){
+            case 1:
+                return Response.ok("Success del").build();
+            case -1:
+                return Response.status(405).encoding("Error in your request").build();
+        }
+        return Response.status(500).build();
     }
 
     @POST
@@ -72,21 +84,30 @@ public class SelectionCommitteeResource {
     public Response addApplication(String json) {
         try {
             Application application = GSON.fromJson(json, Application.class);
+            if ((application.getApplicantID() == null) || (application.getSpecialtyID() == null) || (application.getId() == null))
+            {
+                return Response.status(400).entity("{}").build();
+            }
             int id = request.AddApplication(application);
             if (id>0) {
-                return Response.created(URI.create("api/committee/application/" + id)).build();
+                return Response.ok(request.getApplicationByID(application.getId())).build();
             }
+            return Response.status(400).entity("{}").build();
         } catch (JsonSyntaxException e) {
-            return Response.status(Response.Status.BAD_REQUEST).build();
+            return Response.status(400).entity("{}").build();
         }
-        return Response.status(400).build();
     }
 
     @GET
     @Path("/committee/application/{id}")
     @Produces("application/json")
     public Response getApplicationById(@PathParam(value = "id") int id) {
-        String response = GSON.toJson(request.getApplicationByID(id));
+        Application requestedApplication = request.getApplicationByID(id);
+        String response;
+        if (requestedApplication == null)
+            response = GSON.toJson(new Application());
+        else
+        response = GSON.toJson(requestedApplication);
         return Response.ok(response, MediaType.APPLICATION_JSON).build();
     }
 
@@ -103,19 +124,31 @@ public class SelectionCommitteeResource {
     @Produces("application/json")
     public Response editApplicationById(@PathParam(value = "id") int id, String json) {
         Application application = GSON.fromJson(json, Application.class);
-        int _id = request.UpdateApplication(application, id);
-        if (_id >= 0) {
-            return Response.ok(request.getApplicationByID(_id), MediaType.APPLICATION_JSON_TYPE).build();
+        if ((application.getApplicantID() == null) || (application.getSpecialtyID() == null) || (application.getId() == null))
+        {
+            return Response.status(400).entity("{}").build();
         }
-        return Response.status(400).build();
+        Integer st = request.UpdateApplication(application, id);
+        if (st == 1) {
+            return Response.ok(GSON.toJson(request.getApplicationByID(application.getId())), MediaType.APPLICATION_JSON_TYPE).build();
+        }
+        return Response.status(400).entity("{}").build();
     }
 
     @DELETE
-    @Path("/committe/application/{id}")
+    @Path("/committee/application/{id}")
     @Produces("application/json")
     public Response deleteApplicationById(@PathParam(value = "id") int id) {
         int _id = request.DeleteApplication(id);
-        return Response.ok("DELETED", MediaType.APPLICATION_JSON).build();
+        switch (_id){
+            case 1:
+                return Response.ok(GSON.toJson("Success del")).build();
+            case -1:
+                return Response.status(405).entity(GSON.toJson("Error in your request")).build();
+            case 0:
+                return Response.ok(GSON.toJson("Row doesn't exist")).build();
+        }
+        return Response.status(500).build();
     }
 }
 
