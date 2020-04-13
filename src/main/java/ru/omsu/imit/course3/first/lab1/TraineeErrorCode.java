@@ -6,8 +6,9 @@ public enum TraineeErrorCode {
 	TRAINEE_WRONG_RATING("Rating must be 1 to 5"),
 	GROUP_WRONG_NAME("Name mustn't be empty"),
 	GROUP_STUDENTS_EMPTY("Students mustn't be empty"),
-	TRAINEE_NOT_FOUND("Specified trainee doesn't exist"),
 	INSTITUTE_WRONG_NAME("Name mustn't be empty"),
+	INSTITUTE_WRONG_CITY("City mustn't be empty"),
+	TRAINEE_NOT_FOUND("Specified trainee doesn't exist"),
 	DUPLICATE_TRAINEE("This Trainee is already added"),
 	EMPTY_TRAINEE_QUEUE("The queue is empty");
 

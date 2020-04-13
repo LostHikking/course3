@@ -61,9 +61,17 @@ public class Trainee implements Serializable, Comparable<Trainee> {
 		return Objects.hash(lastName, firstName, rating);
 	}
 
-
 	@Override
 	public int compareTo(Trainee o) {
 		return getFullName().compareTo(o.getFullName());
+	}
+
+	@Override
+	public String toString() {
+		return "Trainee{" +
+				"lastName='" + lastName + '\'' +
+				", firstName='" + firstName + '\'' +
+				", rating=" + rating +
+				'}';
 	}
 }
