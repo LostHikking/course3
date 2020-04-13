@@ -2,8 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/MediaLib.sql" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/bookstore.sql" charset="windows-1251" />
-    <file url="file://W:/Home/Desktop/MediaLib.sql" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/sql/MediaLib.sql" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/sql/MediaLib.sql" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/sql/bookstore.sql" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/sql/bookstore.sql" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
   </component>
 </project>

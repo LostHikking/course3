@@ -29,5 +29,13 @@ public class Institute {
 	public void setCity(String city) {
 		this.city = city;
 	}
+
+	@Override
+	public String toString() {
+		return "Institute{" +
+				"name='" + name + '\'' +
+				", city='" + city + '\'' +
+				'}';
+	}
 }
 
