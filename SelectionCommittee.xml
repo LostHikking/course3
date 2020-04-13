@@ -38,7 +38,7 @@
 
         <target>
             <!-- The destination package of your generated classes (within the destination directory) -->
-            <packageName>ru.omsu.imit.course3.lab5.server.selectioncommittee.jooq.generated</packageName>
+            <packageName>ru.omsu.imit.course3.second.lab5.server.selectioncommittee.jooq.generated</packageName>
 
             <!-- The destination directory of your generated classes. Using Maven directory layout here -->
             <directory>C:\Users\wiper\IdeaProjects\_course3\src\main\java</directory>
