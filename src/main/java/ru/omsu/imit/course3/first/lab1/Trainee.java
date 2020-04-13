@@ -3,7 +3,7 @@ package ru.omsu.imit.course3.first.lab1;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Trainee implements Serializable {
+public class Trainee implements Serializable, Comparable<Trainee> {
 	private String lastName, firstName;
 	private int rating;
 
@@ -58,7 +58,12 @@ public class Trainee implements Serializable {
 
 	@Override
 	public int hashCode() {
-
 		return Objects.hash(lastName, firstName, rating);
+	}
+
+
+	@Override
+	public int compareTo(Trainee o) {
+		return getFullName().compareTo(o.getFullName());
 	}
 }

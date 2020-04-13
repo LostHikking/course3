@@ -7,6 +7,10 @@ import ru.omsu.imit.course3.first.lab1.Trainee;
 import ru.omsu.imit.course3.first.lab1.TraineeException;
 
 import java.io.*;
+import java.nio.ByteBuffer;
+import java.nio.MappedByteBuffer;
+import java.nio.channels.FileChannel;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -170,4 +174,109 @@ public class TraineeTest {
 		}
 	}
 
+	//________________________TASK2(NIO)_____________________
+
+	@Test
+	public void byteBooferTest() {
+		try {
+			Trainee trainee = new Trainee("lol", "kek", 5);
+			File file = new File("traineeOneLine");
+			file.createNewFile();
+			BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+			writer.write(trainee.getFirstName() + " "
+					+ trainee.getLastName() + " "
+					+ trainee.getRating() + "\n");
+			writer.close();
+			RandomAccessFile aFile = new RandomAccessFile(
+					"traineeOneLine", "r");
+			FileChannel inChannel = aFile.getChannel();
+			long fileSize = inChannel.size();
+			ByteBuffer buffer = ByteBuffer.allocate((int) fileSize);
+			inChannel.read(buffer);
+			buffer.flip();
+			StringBuilder traineeInStr = new StringBuilder();
+			for (int i = 0; i < fileSize; i++) {
+				traineeInStr.append((char) buffer.get());
+			}
+			assertEquals("lol kek 5\n", traineeInStr.toString());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Test
+	public void mappedByteBooferTest() {
+		try {
+			Trainee trainee = new Trainee("lol", "kek", 5);
+			File file = new File("traineeOneLine");
+			file.createNewFile();
+			BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+			writer.write(trainee.getFirstName() + " "
+					+ trainee.getLastName() + " "
+					+ trainee.getRating() + "\n");
+			writer.close();
+			RandomAccessFile aFile = new RandomAccessFile(
+					"traineeOneLine", "r");
+			FileChannel inChannel = aFile.getChannel();
+			long fileSize = inChannel.size();
+			MappedByteBuffer buffer = inChannel.map(FileChannel.MapMode.READ_ONLY, 0, inChannel.size());
+			buffer.load();
+			StringBuilder traineeInStr = new StringBuilder();
+			for (int i = 0; i < fileSize; i++) {
+				traineeInStr.append((char) buffer.get());
+			}
+			assertEquals("lol kek 5\n", traineeInStr.toString());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+
+	@Test
+	public void givenPath_whenWriteToItUsingMappedByteBuffer_thenShouldSuccessfullyWrite() {
+		Path file = new File("somenewfile").toPath();
+		try (FileChannel channel = new RandomAccessFile(new File(file.toUri()), "rw").getChannel()) {
+			MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_WRITE, 0, 400);
+			for (int i = 0; i < 100; i++) {
+				buffer.putInt(i);
+			}
+			Scanner myReader = new Scanner(file);
+			while (myReader.hasNextLine()) {
+				String data = myReader.nextLine();
+				System.out.println(data);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Test
+	public void serializeTraineeToByteBuffer() {
+		try (ByteArrayOutputStream byteStream = new ByteArrayOutputStream(500);
+		     ObjectOutputStream objectStream = new ObjectOutputStream(byteStream)) {
+			Trainee trainee = new Trainee("lol", "kek", 5);
+			byte[] inBytes;
+			objectStream.writeObject(trainee);
+			inBytes = byteStream.toByteArray();
+			ByteArrayInputStream bis = new ByteArrayInputStream(inBytes);
+			ObjectInputStream ois = new ObjectInputStream(bis);
+			Trainee traineeFromFile = (Trainee) ois.readObject();
+			assertEquals(trainee, traineeFromFile);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+//		try {
+//			File file = new File("newfile");
+//			file.createNewFile();
+//			BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+//			String numbers = "";
+//			for (int i = 0; i < 100; i++) {
+//				numbers = numbers + i + "\n";
+//			}
+//			FileChannel fileChannel = (FileChannel) Files.newByteChannel(file, EnumSet.of(StandardOpenOption.READ,
+//					StandardOpenOption.WRITE))
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
 }
