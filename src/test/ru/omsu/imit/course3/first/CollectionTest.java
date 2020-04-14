@@ -7,6 +7,7 @@ import ru.omsu.imit.course3.first.lab1.TraineeException;
 import ru.omsu.imit.course3.first.lab3.Color;
 import ru.omsu.imit.course3.first.lab3.Group;
 import ru.omsu.imit.course3.first.lab3.Institute;
+import ru.omsu.imit.course3.first.lab3.MatrixServ;
 
 import java.util.*;
 
@@ -424,22 +425,30 @@ public class CollectionTest {
 	@Test
 	public void matrixTest() {
 		Random random = new Random();
-		int[][] matrix = new int[3][3];
-		matrix[0][0] = 1;
-		matrix[0][1] = 2;
-		matrix[0][2] = 6;
-		matrix[1][0] = 1;
-		matrix[1][1] = 2;
-		matrix[1][2] = 6;
-		matrix[2][0] = 1;
-		matrix[2][1] = 2;
-		matrix[2][2] = 6;
-		System.out.println(matrix.length);
+		Integer[][] matrix = new Integer[3][3];
 		for (int i = 0; i < matrix.length; i++) {
 			for (int j = 0; j < matrix[i].length; j++) {
 				matrix[i][j] = random.nextInt(10);
 			}
 		}
 		System.out.println(Arrays.deepToString(matrix));
+		System.out.println(Arrays.deepToString(MatrixServ.findSetsUnlike(matrix)));
+	}
+
+	@Test
+	public void matrixFromExampleTest() {
+		Random random = new Random();
+		Integer[][] matrix = new Integer[3][3];
+		matrix[0][0] = 1;
+		matrix[0][1] = 2;
+		matrix[0][2] = 3;
+		matrix[1][0] = 3;
+		matrix[1][1] = 2;
+		matrix[1][2] = 1;
+		matrix[2][0] = 4;
+		matrix[2][1] = 2;
+		matrix[2][2] = 1;
+		System.out.println(Arrays.deepToString(matrix));
+		System.out.println(Arrays.deepToString(MatrixServ.findSetsUnlike(matrix)));
 	}
 }

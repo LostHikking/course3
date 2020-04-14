@@ -9,7 +9,11 @@ public class Person implements Serializable {
     private String lastName;
     private Integer age;
 
-    @Override
+    public Person(String firstName) {
+        this.firstName = firstName;
+    }
+
+	@Override
     public String toString() {
         return "Person [firstname=" + firstName + ", lastname=" + lastName + ", age=" + age + "]";
     }
