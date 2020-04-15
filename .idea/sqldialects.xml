@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/sql/SelectionCommittee.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/sql/bookstore.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/ru/omsu/imit/course3/second/lab2/JDBCBookstore.java" dialect="MySQL" />
-    <file url="PROJECT" dialect="MySQL" />
-  </component>
-</project>
