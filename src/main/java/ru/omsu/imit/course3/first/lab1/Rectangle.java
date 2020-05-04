@@ -1,8 +1,28 @@
 package ru.omsu.imit.course3.first.lab1;
 
+import java.util.Objects;
+
 public class Rectangle {
 	private Point leftTop;
 	private Point rightBottom;
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+
+		Rectangle rectangle = (Rectangle) o;
+
+		if (!Objects.equals(leftTop, rectangle.leftTop)) return false;
+		return Objects.equals(rightBottom, rectangle.rightBottom);
+	}
+
+	@Override
+	public int hashCode() {
+		int result = leftTop != null ? leftTop.hashCode() : 0;
+		result = 31 * result + (rightBottom != null ? rightBottom.hashCode() : 0);
+		return result;
+	}
 
 	@Override
 	public String toString() {
@@ -31,6 +51,23 @@ public class Rectangle {
 	}
 
 	public static class Point{
+		@Override
+		public boolean equals(Object o) {
+			if (this == o) return true;
+			if (o == null || getClass() != o.getClass()) return false;
+
+			Point point = (Point) o;
+
+			if (x != point.x) return false;
+			return y == point.y;
+		}
+
+		@Override
+		public int hashCode() {
+			int result = x;
+			result = 31 * result + y;
+			return result;
+		}
 
 		@Override
 		public String toString() {
