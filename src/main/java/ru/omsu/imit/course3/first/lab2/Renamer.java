@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class Renamer {
 	public static Path renameDatToBin(Path dir) throws IOException {
 		if (!Files.isDirectory(dir)) {
-			throw new RuntimeException("Yout path is not a directory");
+			throw new RuntimeException("Your path is not a directory");
 		}
 		List<Path> pathList = Files.list(dir)
 				.filter(x -> (x.toString().lastIndexOf(".dat") == x.toString().length() - 4))

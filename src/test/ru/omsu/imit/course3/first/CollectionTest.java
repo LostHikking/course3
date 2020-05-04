@@ -437,7 +437,6 @@ public class CollectionTest {
 
 	@Test
 	public void matrixFromExampleTest() {
-		Random random = new Random();
 		Integer[][] matrix = new Integer[3][3];
 		matrix[0][0] = 1;
 		matrix[0][1] = 2;

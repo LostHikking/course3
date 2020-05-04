@@ -1,24 +1,30 @@
 package ru.omsu.imit.course3.first.lab3;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class MatrixServ {
 	public static Integer[][] findSetsUnlike(Integer[][] matrix) {
 		Set<Integer> set;
-		ArrayList<Integer[]> result = new ArrayList<>();
+		Map<Integer[], ArrayList<Integer[]>> resultMap = new HashMap<>();
 		for (int i = 0; i < matrix.length; i++) {
+			resultMap.put(matrix[i], new ArrayList<>());
+			resultMap.get(matrix[i]).add(matrix[i]);
 			for (int j = i+1; j < matrix.length; j++) {
 				set = new HashSet<>(Arrays.asList(matrix[i]));
 				set.addAll(new HashSet<>(Arrays.asList(matrix[j])));
 				if (set.size() > matrix[i].length) {
-					result.add(matrix[i]);
-					result.add(matrix[j]);
+					resultMap.get(matrix[i]).add(matrix[j]);
 				}
 			}
 		}
-		return result.toArray(new Integer[0][]);
+		List<ArrayList<Integer[]>> result = resultMap
+				.values().stream()
+				.filter(integers -> integers.size() > 1)
+				.collect(Collectors.toList());
+		if (result.size() == 0)
+			return null;
+		Random random = new Random();
+		return result.get(random.nextInt(result.size())).toArray(new Integer[0][]);
 	}
 }
