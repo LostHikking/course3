@@ -1,34 +1,43 @@
 package ru.omsu.imit.course3.first.lab5.readerwriter;
 
-import java.util.concurrent.Semaphore;
+import java.util.Random;
+import java.util.concurrent.locks.ReadWriteLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class Book {
 	private String str;
-	private Semaphore writeSem;
-	private Semaphore readSem;
+		private final ReadWriteLock lock;
 
 	public Book() {
-		writeSem = new Semaphore(1);
-		readSem = new Semaphore(0);
+		lock = new ReentrantReadWriteLock();
 	}
 
 	public void write(String str) {
+		System.out.println(Thread.currentThread().getName() + " хочет писать");
+		lock.writeLock().lock();
 		try {
-			writeSem.acquire();
+			System.out.println(Thread.currentThread().getName() + " пишет " + str);
+			this.str = str;
+			Thread.sleep(new Random().nextInt(500));
 		} catch (InterruptedException e) {
 			e.printStackTrace();
+		} finally {
+			System.out.println(Thread.currentThread().getName() + " закончил писать");
+			lock.writeLock().unlock();
 		}
-		this.str = str;
-		readSem.release();
 	}
 
-	public String read() {
+	public void read()  {
+		System.out.println(Thread.currentThread().getName() + " хочет читать");
+		lock.readLock().lock();
 		try {
-			readSem.acquire();
+			System.out.println(Thread.currentThread().getName() + " читает " + str);
+			Thread.sleep(new Random().nextInt(500));
 		} catch (InterruptedException e) {
 			e.printStackTrace();
+		} finally {
+			System.out.println(Thread.currentThread().getName() + " закончил читать");
+			lock.readLock().unlock();
 		}
-		writeSem.release();
-		return str;
 	}
 }

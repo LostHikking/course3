@@ -115,12 +115,17 @@ public class ThreadTest {
 	@Test
 	public void readerWriter() throws InterruptedException {
 		Book book = new Book();
-		Thread writer = new Thread(new Writer(book));
-		Thread reader = new Thread(new Reader(book));
-		writer.start();
-		reader.start();
-		writer.join();
-		reader.join();
+		Thread writer1 = new Thread(new Writer(book));
+		Thread writer2 = new Thread(new Writer(book));
+		Thread reader1 = new Thread(new Reader(book));
+		Thread reader2 = new Thread(new Reader(book));
+		Thread reader3 = new Thread(new Reader(book));
+		writer1.start();
+		writer2.start();
+		reader1.start();
+		reader2.start();
+		reader3.start();
+		writer1.join();
 	}
 
 	@Test
