@@ -71,7 +71,7 @@ public class RectangleTest {
 			try {
 				integers.add(dis.readInt());
 				i++;
-				if (i == 4) {
+				if (i == Rectangle.class.getDeclaredFields().length* Rectangle.Point.class.getDeclaredFields().length) {
 					System.out.println(new Rectangle(new Rectangle.Point(integers.get(0), integers.get(1)), new Rectangle.Point(integers.get(2), integers.get(3))));
 					dis.readChar();
 					i = 0;
